@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:wght@400;700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+    color: #243e63;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 0 32px;
+}
+
+nav {
+    display: flex;
+    padding-top: 32px;
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 40px;
+}
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    justify-content: flex-start;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    transition: all 300ms;
+}
+
+.nav__link {
+    margin: 0 24px;
+}
+
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+.login {
+    margin-left: 48px;
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    background: #6415ff;
+    color: #fff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+    transition: all 300ms;
+}
+
+.btn__menu {
+    display: none;
+    background: transparent;
+    border: none;
+    transition: all 300ms ease;
+}
+
+
+header {
+    position: relative;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+.header__description--para {
+    font-size: 16px;
+    margin:  32px 0;
+}
+
+.header__email {
+    width: 100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(195, 206, 226);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
+}
+
+.header__email--btn {
+    z-index: 2;
+    margin: 50px;
+    height: calc(100% - 16px);
+    border-radius: 500px;
+    width: 160px;
+    border: none;
+    background-color: #6415ff;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 300ms;
+}
+
+
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    padding-block: 1px;
+    padding-inline: 6px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header__customers {
+    margin-top: 16px;
+    padding-right: 128px;
+    opacity: 0.5;
+} 
+
+.header__img {
+    max-width: 512px;
+    width: 100%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.header__img--wrapper {
+    width: calc(100% - 41.6667%);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="row nav__row">
+                <div class="nav__logo">
+                    <img class="nav__logo--img" src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="logo">
+                    <div class="nav__logo--title">Treact</div>
+                </div>
+                <div class="nav__links">
+                    <a href="#" class="nav__link">About
+                    </a>
+                    <a href="#" class="nav__link">Blog
+                    </a>
+                    <a href="#" class="nav__link">Pricing
+                    </a>
+                    <a href="#" class="nav__link">Contact Us
+                    </a>
+                    <a href="#" class="nav__link login">Login
+                    </a>
+                    <a href="#" class="nav__link nav__link--primary">Sign Up
+                    </a>
+                </div>
+                <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" with="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currenctColor" stroke-width="2" stroke-linecap="round" class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                    </svg>
+                </button>
+
+            </div>
+        </nav>
+        <div class="modal">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="header__description">
+                        <h1>Beautiful React Templates<span class="purple"> for you.</span>
+                        </h1>
+                        <p class="header__description--para">
+                            Our Temeplates are easy to setup, understand and customize.
+                            Fully modular components with a variety of pages and components.
+                         </p>
+                         <div class="header__email">
+                            <input type="text" class="header__email--input" placeholder="Your E-mail Address">
+                            <button class="header__email--btn">Get Started</button>
+                         </div>
+                            <p class="header__customers--title">OUT TRUSTED CUSTOMUERS</p>
+                            <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt class="header__customers">
+                    </div>
+                        <figure class="header__img--wrapper">
+                            <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="" class="header__img">
+                        </figure>
+
+                </div>
+            </div>
+        </header>
+    </section>
+    
+</body>
+</html>
