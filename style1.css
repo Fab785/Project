@@ -118,6 +118,7 @@ header {
 }
 
 .header__description {
+    width: 40%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -163,11 +164,10 @@ h1 {
 }
 
 .header__email--btn {
+    padding: 17px 25px;
     z-index: 2;
-    margin: 50px;
-    height: calc(100% - 16px);
+    margin: 7px;
     border-radius: 500px;
-    width: 160px;
     border: none;
     background-color: #6415ff;
     color: white;
@@ -212,6 +212,7 @@ div {
 
 .header__customers--title {
     margin-top: 80px;
+    margin-right: 110px;
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
@@ -224,8 +225,12 @@ p {
 }
 
 .header__customers {
+    max-width: 400px;
+    padding: 0 0 0 50px;
+    display: flex;
+    justify-items: center;
     margin-top: 16px;
-    padding-right: 128px;
+    padding-right: 12px;
     opacity: 0.5;
 } 
 
@@ -237,5 +242,21 @@ p {
 }
 
 .header__img--wrapper {
-    width: calc(100% - 41.6667%);
+    width: 60%;
+}
+
+.header__wrapper {
+    display: flex;
+}
+
+.header__blob {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.05;
+    width: 256px;
+    height: 256px;
+    transform: matrix(1,0,0, -163, 0);
+
+
 }
